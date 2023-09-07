@@ -1,0 +1,75 @@
+
+
+
+
+
+/*styles links*/
+
+@import 'header.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  1. Fonts
+  2. Global Styles
+  3. 
+  4.
+  5.
+  6.
+  7.
+  8.
+  9.
+  10.
+*/
+
+
+/*1. Fonts*/ 
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('fonts/Noto_Serif/static/NotoSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. Global Styles */
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:white;  
+    background-color: black
+}
+
+
+
+
+
+
+
+
+
