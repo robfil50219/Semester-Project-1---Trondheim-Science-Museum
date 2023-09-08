@@ -1,103 +1,94 @@
-.header {
+.header-img-container {
+    background-image: url('images/celso-405219.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0; 
     position: relative;
-}
-
-.header-overlay-container {
-    position: relative;
+    height: 250px; 
 }
 
 .header-img {
-    flex: content;
-    width: 100%;
-    display: block;
-    max-height: 350px;
-    overflow: hidden;
-}
-
-
-.logo, nav {
-    position: absolute;
-    color: white;
-    z-index: 1;
+    display: none; 
 }
 
 .logo {
-    font-size: 2em;
-    top: 20px; 
-    left: 20px; 
-    transform: none; 
-}
-
-.logo span {
-    display: inline-block;
-}
-
-.logo span::first-letter {
-    font-size: 1.5em;
-    
-  }
-  
-
-nav {
     position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translate(-50%);
-    z-index: 1;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+.logo span {
+    display: block;
+    text-align: left;
+    color: #fff;
+    line-height: 0.3;
     
 }
+.logo span::first-letter {
+    font-size: 2em;
+}
 
-
-nav ul {
+    .menu {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    gap: 0px; 
     padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
 }
 
-nav a {
+.menu li a {
     text-decoration: none;
-    color: white;
-    padding: 10px;
-    transition: background 0.3s ease;
-}
-
-nav a:hover {
-    background-color: rgba(77, 75, 75, 0.5);
-}
-
-.extras { 
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    z-index: 1;
-
-}
-
-
-.search {
-    display: inline-block; 
-}
-
-.buy-tickets {
-    display: block;
-    margin-top: 10px; /
-    padding: 10px 20px;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
+    color: #fff;
+    padding: 5px 10px; 
     transition: background-color 0.3s ease;
 }
 
-.buy-tickets:hover {
-    background-color: rgba(0,0,0,0.7);
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 
+.search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.search input {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.extras {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.buy-tickets {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
 .buy-tickets:hover {
+    background-color: #d5591b; 
+}
 
-    background-color: rgba(0, 0, 0, 0.7);
-} 
+nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
 
-
-
+}
