@@ -1,0 +1,97 @@
+
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 16px; 
+    }
+  
+    .header-img-container {
+      height: 300px; 
+    }
+  
+    .main-image {
+      height: 600px; 
+    }
+  
+    
+  }
+  
+  
+  @media screen and (min-width: 992px) {
+    .header-img-container {
+      height: 400px; 
+    }
+  
+    .main-image {
+      height: 800px; 
+    }
+  
+    
+  }
+  
+  
+  @media screen and (min-width: 1200px) {
+    .header-img-container {
+      height: 500px; 
+    }
+  
+    .main-image {
+      height: 1000px; 
+    }
+  
+
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px; 
+    }
+  
+    .header-img-container {
+      height: 200px; 
+    }
+  
+    .main-image {
+      height: 400px; 
+    }
+  
+    
+  }
+  
+  
+  @media screen and (max-width: 340px) {
+    body {
+      font-size: 12px; 
+    }
+  
+    .header-img-container {
+      height: 150px; 
+    }
+  
+    .main-image {
+      height: 300px; 
+    }
+
+    .kid-reading {
+        height: 200px; 
+      }
+
+      .buy-tickets {
+        font-size: 10px; 
+        padding: 5px 10px; 
+      }
+
+      .logo span {
+        font-size: 10px;
+        margin-top: -10px; /
+      } 
+
+
+    }
+
+ 
+
+
+  
+  
+  
