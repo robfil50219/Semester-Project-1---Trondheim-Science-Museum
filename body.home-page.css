@@ -15,7 +15,7 @@ main {
 
 /* Main image styling */
 .main-image {
-    width: 100vw;
+    width: 100%;
     height: 1000px; 
     object-fit: cover;
     object-position: center bottom;
@@ -104,7 +104,7 @@ main {
     height: auto;
 }
 
-/*For Reasearchers*/ 
+/*For Reasearchers Section*/ 
 
 #for-researchers {
     display: flex;
@@ -113,6 +113,27 @@ main {
     text-align: center;
     padding: 20px;
 }
+
+#for-researchers h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#for-researchers p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(107, 107, 107, 0.5);
+    max-width: 1000px;
+}
+
+.researcher-image {
+    width: 80%;  
+    max-width: 1000px;
+    margin-top: 0px;
+}
+
+
 
 
 
