@@ -3,34 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About|Trondheim Science Museum</title>
+    <title>About | Trondheim Science Museum</title>
+    <meta
+      name="description"
+      content="Welcome to Trondheim Science Museum. Explore Together!"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
-  <header role="banner">
+  <header class="header-img-container">
+    <img
+      src="images/celso-405219.jpg"
+      alt="The moon going through lunar phase"
+      class="header-img"
+    />
     <div class="logo">
-      Trondheim<br />
-      Science<br />
-      Museum
+      <span>Trondheim</span><br />
+      <span>Science</span><br />
+      <span>Museum</span>
     </div>
     <nav role="navigation">
       <ul class="menu">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Visit us</a></li>
-        <li><a href="#">Exhibits</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="visit-us.html">Visit us</a></li>
+        <li><a href="exhibits.html">Exhibits</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="extras">
-      <button class="buy-tickets">Buy Tickets</button>
-      <div class="search">
-        <input
-          type="search"
-          placeholder="Search..."
-          aria-label="Search the website"
-        />
-      </div>
+      <a href="contact.html">
+        <button class="buy-tickets">Buy Tickets</button>
+      </a>
+    </div>
+    <div class="search">
+      <input
+        type="search"
+        placeholder="Search..."
+        aria-label="Search the website"
+      />
     </div>
   </header>
-  <body></body>
+  <body>
+    <main></main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <p><span>Trondheim</span> <span>Science</span> <span>Museum</span></p>
+        </div>
+        <div class="social-media-links">
+          <a href="#" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          &copy; 2023 Trondheim Science Museum. All rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

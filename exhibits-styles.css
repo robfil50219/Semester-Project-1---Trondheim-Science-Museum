@@ -1,0 +1,144 @@
+#cosmonology, #evolution, #biology-and-medicine, #ecology {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style section headers */
+  #cosmonology h2, #evolution h2, #biology-and-medicine h2, #ecology h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style section titles */
+  #cosmonology #main-title, #evolution #main-title, #biology-and-medicine #main-title, #ecology #main-title {
+    color: #007bff;
+    font-size: 32px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Style paragraphs */
+  #cosmonology p, #evolution p, #biology-and-medicine p, #ecology p {
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Style links */
+  #cosmonology a, #evolution a, #biology-and-medicine a, #ecology a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #cosmonology a:hover, #evolution a:hover, #biology-and-medicine a:hover, #ecology a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style images within sections */
+  #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style section headers */
+  #cosmonology h3, #evolution h3, #biology-and-medicine h3, #ecology h3 {
+    color: #5a965a;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+
+
+/* Robotics and Artificial Intelligence section */ 
+#robotics-ai {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style section header */
+#robotics-ai h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style section title */
+#robotics-ai #main-title {
+  color: #007bff;
+  font-size: 32px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style paragraphs */
+#robotics-ai p {
+  color: #555;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style links */
+#robotics-ai a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#robotics-ai a:hover {
+  text-decoration: underline;
+}
+
+/* Style images within the section */
+#robotics-ai img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  #robotics-ai {
+    padding: 10px;
+  }
+  #robotics-ai img {
+    max-width: 60%;
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    #cosmonology, #evolution, #biology-and-medicine, #ecology {
+      padding: 10px;
+    }
+    #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
+      max-width: 60%;
+    }
+  }
+   /* Media query for smaller screens */
+   @media screen and (max-width: 768px) {
+    #cosmonology, #evolution, #biology-and-medicine, #ecology {
+      padding: 10px;
+    }
+    #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
+      max-width: 60%;
+    }
+  }
