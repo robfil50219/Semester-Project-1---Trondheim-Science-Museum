@@ -3,34 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Support|Trondheim Science Museum</title>
+    <title>About | Trondheim Science Museum</title>
+    <meta
+      name="description"
+      content="Welcome to Trondheim Science Museum. Explore Together!"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
-  <header role="banner">
+  <header class="header-img-container">
+    <img
+      src="images/celso-405219.jpg"
+      alt="The moon going through lunar phase"
+      class="header-img"
+    />
     <div class="logo">
-      Trondheim<br />
-      Science<br />
-      Museum
+      <span>Trondheim</span><br />
+      <span>Science</span><br />
+      <span>Museum</span>
     </div>
     <nav role="navigation">
       <ul class="menu">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Visit us</a></li>
-        <li><a href="#">Exhibits</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="visit-us.html">Visit us</a></li>
+        <li><a href="exhibits.html">Exhibits</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="extras">
-      <button class="buy-tickets">Buy Tickets</button>
-      <div class="search">
-        <input
-          type="search"
-          placeholder="Search..."
-          aria-label="Search the website"
-        />
-      </div>
+      <a href="contact.html">
+        <button class="buy-tickets">Buy Tickets</button>
+      </a>
+    </div>
+    <div class="search">
+      <input
+        type="search"
+        placeholder="Search..."
+        aria-label="Search the website"
+      />
     </div>
   </header>
-  <body></body>
+  <body>
+    <main>
+      <h1>Get Involved</h1>
+      <section id="support">
+        <h2>Support</h2>
+        <p>
+          There are various ways you can support the museum. Donations are very
+          welcome and are an important way we keep this museum open and
+          accessible to the whole community.
+        </p>
+        <p>
+          You can also support us by donating items of interest to the museum’s
+          collections. If you have some item or collection that you think others
+          would enjoy, please let us know by contacting our Collections
+          Department, and they will be able to assist you.
+        </p>
+      </section>
+      <section id="volunteer">
+        <h2>Volunteer</h2>
+        <p>
+          A number of people volunteer their time and effort to keep the
+          displays in good order and ready for visitors to come and enjoy.
+          Volunteering has its perks, including getting to see behind the scenes
+          of a working museum, access to staff-only lectures, and a monthly
+          lunch where all staff and volunteers come together to discuss ideas
+          for future exhibits and strategies for the museum.
+        </p>
+        <p>
+          You can help volunteer in a number of different spheres. Please
+          contact us if you’d like to find out more about how you can get
+          involved.
+        </p>
+      </section>
+      <section id="internships">
+        <h2>Internships</h2>
+        <p>
+          Are you interested in working in a museum? Do you enjoy the fun and
+          excitement of sharing the wonders of nature with people? Well, you
+          could be just the right person to enjoy an internship at the museum.
+        </p>
+        <p>
+          You’ll be learning from a number of different academics and people who
+          are passionate about science and sharing it with the wider community.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <p><span>Trondheim</span> <span>Science</span> <span>Museum</span></p>
+        </div>
+        <div class="social-media-links">
+          <a href="#" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          &copy; 2023 Trondheim Science Museum. All rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
