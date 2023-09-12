@@ -114,31 +114,3 @@
   border: 1px solid #ddd;
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  #robotics-ai {
-    padding: 10px;
-  }
-  #robotics-ai img {
-    max-width: 60%;
-  }
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    #cosmonology, #evolution, #biology-and-medicine, #ecology {
-      padding: 10px;
-    }
-    #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
-      max-width: 60%;
-    }
-  }
-   /* Media query for smaller screens */
-   @media screen and (max-width: 768px) {
-    #cosmonology, #evolution, #biology-and-medicine, #ecology {
-      padding: 10px;
-    }
-    #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
-      max-width: 60%;
-    }
-  }

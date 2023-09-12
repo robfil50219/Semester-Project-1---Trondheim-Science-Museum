@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* Reduced height to make room for the Contact Us section */
+    height: 70vh; 
 }
 
 #buy-tickets h1 {
