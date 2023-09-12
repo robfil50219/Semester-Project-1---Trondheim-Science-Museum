@@ -1,0 +1,106 @@
+/* Style the Buy Tickets section at the top */
+#buy-tickets {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Reduced height to make room for the Contact Us section */
+}
+
+#buy-tickets h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#ticket-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    font-size: 18px; 
+    width: 100%; 
+    height: 40px; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 113%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the confirmation message */
+#confirmation {
+    display: none;
+    margin-top: 20px;
+    background-color: #dff0d8;
+    border: 1px solid #a2d5a2;
+    padding: 10px;
+}
+
+/* Style the Contact Us section at the bottom */
+#contact {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Adjusted height for the Contact Us section */
+}
+
+#contact h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+

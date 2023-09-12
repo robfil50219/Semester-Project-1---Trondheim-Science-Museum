@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exhibits|Trondheim Science Museum</title>
+    <meta
+      name="description"
+      content="Welcome to Trondheim Science Museum. Explore Together!"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-img-container">
+      <img
+        src="images/celso-405219.jpg"
+        alt="The moon going through lunar phase"
+        class="header-img"
+      />
+      <div class="logo">
+        <span>Trondheim</span><br />
+        <span>Science</span><br />
+        <span>Museum</span>
+      </div>
+      <nav role="navigation">
+        <ul class="menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit-us.html">Visit us</a></li>
+          <li><a href="exhibits.html">Exhibits</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="extras">
+        <a href="contact.html">
+          <button class="buy-tickets">Buy Tickets</button>
+        </a>
+      </div>
+      <div class="search">
+        <input
+          type="search"
+          placeholder="Search..."
+          aria-label="Search the website"
+        />
+      </div>
+    </header>
+    <main>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or inquaries, feel free to contact us:</p>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:info@trondheimmuseum.org"
+              >info@trondheimmuseum.org</a
+            >
+          </li>
+          <li>Phone: +1 (123) 456-7890</li>
+        </ul>
+      </section>
+      <section id="buy-tickets">
+        <h1>Buy Tickets For Guided Tour</h1>
+        <p>Select the number of tickets you'd like to purchase:</p>
+        <form id="ticket-form">
+          <label for="ticket-quantity">Quantity:</label>
+          <input
+            type="number"
+            id="ticket-quantity"
+            name="ticket-quantity"
+            min="1"
+            required
+          />
 
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="tour-date">Tour Date:</label>
+          <input type="date" id="tour-date" name="tour-date" required />
+
+          <button type="button" id="purchase-button">Purchase Tickets</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <p><span>Trondheim</span> <span>Science</span> <span>Museum</span></p>
+        </div>
+        <div class="social-media-links">
+          <a href="#" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          &copy; 2023 Trondheim Science Museum. All rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
