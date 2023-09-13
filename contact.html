@@ -71,6 +71,9 @@
         <h1>Buy Tickets For Guided Tour</h1>
         <p>Select the number of tickets you'd like to purchase:</p>
         <form id="ticket-form">
+          <label for="tour-date">Tour Date:</label>
+          <input type="date" id="tour-date" name="tour-date" required />
+
           <label for="ticket-quantity">Quantity:</label>
           <input
             type="number"
@@ -86,10 +89,47 @@
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required />
 
-          <label for="tour-date">Tour Date:</label>
-          <input type="date" id="tour-date" name="tour-date" required />
+          <label for="card-number">Card Number:</label>
+          <input
+            type="text"
+            id="card-number"
+            name="card-number"
+            required
+            placeholder="1234 5678 9012 3456"
+          />
 
-          <button type="button" id="purchase-button">Purchase Tickets</button>
+          <label for="card-expiration">Expiration Date:</label>
+          <input
+            type="text"
+            id="card-expiration"
+            name="card-expiration"
+            required
+            placeholder="MM/YY"
+          />
+
+          <label for="card-cvv">CVV:</label>
+          <input
+            type="text"
+            id="card-cvv"
+            name="card-cvv"
+            required
+            placeholder="123"
+          />
+
+          <input
+            type="checkbox"
+            id="purchase-confirm"
+            class="hidden-checkbox"
+          />
+          <label for="purchase-confirm" id="purchase-label"
+            >Purchase Tickets</label
+          >
+
+          <div id="confirmation" class="hidden">
+            <p>
+              Your tickets have been purchased! Thank you for your purchase.
+            </p>
+          </div>
         </form>
       </section>
     </main>
