@@ -2,7 +2,11 @@
   body {
       font-size: 14px;
   }
-
+  .header {
+    display: flex;
+    justify-content: flex-start;  
+  }
+ 
   .header-img-container {
       height: 200px;
   }
@@ -48,15 +52,21 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .menu a {
   font-size: 12px; 
 }
+
+nav[role="navigation"] {
+  text-align: left; 
+  width: 100%; 
+  padding: 10px 0;
+}
 }
 
-/* Common styles for screens between 768px and 991px */
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
       font-size: 16px;
@@ -71,7 +81,7 @@
   }
 }
 
-/* Common styles for screens between 992px and 1199px */
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .header-img-container {
       height: 400px;
@@ -82,7 +92,7 @@
   }
 }
 
-/* Common styles for screens larger than 1200px (desktop) */
+
 @media screen and (min-width: 1200px) {
   body {
       font-size: 18px;
