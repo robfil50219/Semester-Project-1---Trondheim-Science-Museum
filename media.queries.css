@@ -43,6 +43,17 @@
 .social-media-links a {
     font-size: 24px; 
 }
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu a {
+  font-size: 12px; 
+}
 }
 
 /* Common styles for screens between 768px and 991px */
