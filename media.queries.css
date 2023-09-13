@@ -1,123 +1,84 @@
-
-@media screen and (min-width: 768px) {
-    body {
-      font-size: 16px; 
-    }
-  
-    .header-img-container {
-      height: 300px; 
-    }
-  
-    .main-image {
-      height: 600px; 
-    }
-  
-    
+@media screen and (max-width: 767px) {
+  body {
+      font-size: 14px;
   }
-  
-  
-  @media screen and (min-width: 992px) {
-    .header-img-container {
-      height: 400px; 
-    }
-  
-    .main-image {
-      height: 800px; 
-    }
-  
-    
+
+  .header-img-container {
+      height: 200px;
   }
-  
-  
-  @media screen and (min-width: 1200px) {
-    .header-img-container {
-      height: 500px; 
-    }
-  
-    .main-image {
-      height: 1000px; 
-    }
-  
 
+  .main-image {
+      height: 400px;
   }
-  
-  
-  @media screen and (max-width: 767px) {
-    body {
-      font-size: 14px; 
-    }
-  
-    .header-img-container {
-      height: 200px; 
-    }
-  
-    .main-image {
-      height: 400px; 
-    }
-  
-    
+
+  .kid-reading {
+      height: 200px;
   }
-  
-  
-  @media screen and (max-width: 340px) {
-    body {
-      font-size: 12px; 
-    }
-  
-    .header-img-container {
-      height: 150px; 
-    }
-  
-    .main-image {
-      height: 300px; 
-    }
 
-    .kid-reading {
-        height: 200px; 
-      }
-
-      .buy-tickets {
-        font-size: 10px; 
-        padding: 5px 10px; 
-      }
-
-      .logo span {
-        font-size: 10px;
-        margin-top: -10px; /
-      } 
-
-
-    }
-
- 
-
-@media screen and (max-width: 768px) {
-  #robotics-ai {
-    padding: 10px;
+  .buy-tickets {
+      font-size: 10px;
+      padding: 5px 10px;
   }
-  #robotics-ai img {
-    max-width: 60%;
+
+  .logo span {
+      font-size: 10px;
+      margin-top: -10px;
   }
+
+  .footer-content {
+    font-size: 12px; 
+}
+
+.footer-logo p {
+    font-size: 14px; 
+}
+
+.social-media-links {
+    gap: 20px; 
+}
 }
 
 
-@media screen and (max-width: 768px) {
-    #cosmonology, #evolution, #biology-and-medicine, #ecology {
-      padding: 10px;
-    }
-    #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
-      max-width: 60%;
-    }
+/* Common styles for screens between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+      font-size: 16px;
   }
- 
-   @media screen and (max-width: 768px) {
-    #cosmonology, #evolution, #biology-and-medicine, #ecology {
-      padding: 10px;
-    }
-    #cosmonology img, #evolution img, #biology-and-medicine img, #ecology img {
-      max-width: 60%;
-    }
+
+  .header-img-container {
+      height: 300px;
   }
+
+  .main-image {
+      height: 600px;
+  }
+}
+
+/* Common styles for screens between 992px and 1199px */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-img-container {
+      height: 400px;
+  }
+
+  .main-image {
+      height: 800px;
+  }
+}
+
+/* Common styles for screens larger than 1200px (desktop) */
+@media screen and (min-width: 1200px) {
+  body {
+      font-size: 18px;
+  }
+
+  .header-img-container {
+      height: 500px;
+  }
+
+  .main-image {
+      height: 1000px;
+  }
+}
 
   
   
