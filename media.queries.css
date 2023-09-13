@@ -27,17 +27,23 @@
 
   .footer-content {
     font-size: 12px; 
+    flex-direction: column; 
 }
 
 .footer-logo p {
     font-size: 14px; 
+    line-height: 1.2; 
 }
 
 .social-media-links {
     gap: 20px; 
 }
-}
 
+
+.social-media-links a {
+    font-size: 24px; 
+}
+}
 
 /* Common styles for screens between 768px and 991px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
