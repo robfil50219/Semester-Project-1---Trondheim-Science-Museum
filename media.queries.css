@@ -16,8 +16,9 @@
   }
 
   .kid-reading {
-      height: 200px;
+      height: 450px;
   }
+  
 
   .buy-tickets {
     display: none;
@@ -64,6 +65,10 @@ nav[role="navigation"] {
   text-align: left; 
   width: 100%; 
   padding: 10px 0;
+}
+
+#main-title {
+  font-size: 3rem;
 }
 
 
