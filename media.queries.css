@@ -93,7 +93,40 @@ nav[role="navigation"] {
 #location .location-images .building-image {
   margin-top: 20px;
 }
+
+/*visit us */ 
+#location {
+  flex-direction: column;
+  align-items: center;
 }
+
+.location-text {
+  align-items: center;
+  margin-right: 0;
+}
+#buy-tickets {
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ticket-form label {
+  text-align: left;
+}
+
+#ticket-form input[type="date"] {
+  font-size: 18px;
+  height: auto;
+}
+
+
+#contact {
+  margin-top: 20px;
+  height: auto;
+}
+}
+
 
 
 
