@@ -71,8 +71,31 @@ nav[role="navigation"] {
   font-size: 3rem;
 }
 
-
+.bottom-sections section {
+  padding: 10px;
+  margin: 0;
 }
+
+
+#location .location-text,
+#location .location-images {
+  text-align: center;
+}
+.bottom-sections {
+  flex-direction: column;
+}
+
+#location {
+  flex-direction: column;
+  align-items: center;
+}
+
+#location .location-images .building-image {
+  margin-top: 20px;
+}
+}
+
+
 
 
 
