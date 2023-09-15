@@ -94,30 +94,30 @@ nav[role="navigation"] {
   margin-top: 20px;
 }
 
-/*visit us */ 
-#buy-tickets {
-  width: 100%;
-  max-width: none;
-  margin: 20px auto;
-  padding: 10px;
-}
 
-#ticket-form label {
-  text-align: left;
+  /* Contact/Buy tickets */
+  #buy-tickets {
+    width: 100%;
+    max-width: none;
+    margin: 10px auto; 
+    padding: 10px; 
+  }
+  
+  #ticket-form label {
+    text-align: left;
+  }
+  
+  #ticket-form input[type="date"] {
+    font-size: 18px;
+    height: auto;
+  }
+  
+  
+  #contact {
+    margin-top: 10px; 
+    padding: 10px; 
+  }
 }
-
-#ticket-form input[type="date"] {
-  font-size: 18px;
-  height: auto;
-}
-
-/* Contact section styles for mobile */
-#contact {
-  margin-top: 20px;
-  padding: 10px;
-}
-}
-
 
 
 
@@ -162,4 +162,6 @@ nav[role="navigation"] {
   .main-image {
       height: 1000px;
   }
+
+
 }
