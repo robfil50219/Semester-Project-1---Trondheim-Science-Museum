@@ -130,4 +130,10 @@ input[type="date"] {
     text-decoration: underline 1px solid white;
 }
 
+a {
+    color: blue; 
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
 
