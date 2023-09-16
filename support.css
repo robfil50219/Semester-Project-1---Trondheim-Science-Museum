@@ -25,6 +25,11 @@
     margin-bottom: 15px;
 }
 
+.support-item:hover h2,
+.support-item:hover p {
+    color: black; /* Change text color to black when hovering */
+}
+
 .support-item p { 
     font-size: 1em;
     color: white;
