@@ -47,11 +47,15 @@
     border: 1px solid white;
 }
 
+
+
 .location-text h2 {
     text-align: left;  
     border-bottom: 2px solid black; 
     color: white; 
 }
+
+
 
 .location-images {
     width: 100%;
@@ -98,13 +102,19 @@
 .bottom-sections section:hover {
     background-color: #d5591b;
     box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.6);
+    color: black;
+}
+.bottom-sections section:hover h2 {
+    color: black;
 }
 
 .blue-link {
     color:black;
 }
 
-
+.blue-link:hover {
+    color: blue;
+}
 
 
 

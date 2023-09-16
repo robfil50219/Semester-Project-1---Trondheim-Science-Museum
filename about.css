@@ -11,6 +11,7 @@ main {
 main:hover {
     background-color: #d5591b;
     box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.6);
+    color: black;
 }
 
 
@@ -31,7 +32,7 @@ p {
     margin-bottom: 15px;
 }
 
-
-
-
-
+main:hover h1,
+main:hover p {
+    color: black; 
+}
