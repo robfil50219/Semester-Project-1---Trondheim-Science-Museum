@@ -123,17 +123,13 @@ input[type="date"] {
 
 #contact a {
     text-decoration: none;
-    color: #007bff;
+    color: black;
 }
 
 #contact a:hover {
     text-decoration: underline 1px solid white;
 }
 
-a {
-    color: black; 
-    text-decoration: underline; 
-    font-weight: bold;
-}
+
 
 
