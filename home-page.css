@@ -60,12 +60,18 @@ main {
     color: white;
     max-width: 1000px;
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 #for-kids p br {
     content: "\00a0";
     display: block;
     margin-bottom: 10px;
+}
+
+#for-kids p:hover {
+    background-color: #d5591b;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.6);
 }
 
 #for-teachers h2 {
@@ -97,11 +103,17 @@ main {
     background-color: rgba(53, 53, 53, 0.8); 
     max-width: 1000px;
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 .image img {
     max-width: 100%;
     height: auto;
+}
+
+#for-teachers p:hover {
+    background-color: #d5591b;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.6);
 }
 
 #for-researchers {
@@ -126,6 +138,7 @@ main {
     background-color: rgba(53, 53, 53, 0.8);
     max-width: 1000px;
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 .researcher-image {
@@ -134,7 +147,17 @@ main {
     margin-top: 0px;
 }
 
+#for-researchers p:hover {
+    background-color: #d5591b;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.6);
+}
 
+.main-image,
+.kid-reading,
+.teacher-image,
+.researcher-image {
+    border-radius: 5px; 
+}
 
 
 
