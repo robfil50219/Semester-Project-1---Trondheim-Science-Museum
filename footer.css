@@ -29,6 +29,7 @@ footer {
 .footer-logo span {
     display: inline-block; 
     position: relative;
+    
 }
 
 .footer-logo span::first-letter {
@@ -37,6 +38,12 @@ footer {
     line-height: 1;
     top: 0; 
 }
+
+.footer-logo span:hover {
+    color: #d5591b;  
+    transition: color 0.3s ease; 
+}
+
 
 
 .social-media-links {
@@ -50,6 +57,10 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 40px;
+}
+.social-media-links a:hover {
+    color: #d5591b;  
+    transition: color 0.3s ease; 
 }
 
 .copyright {

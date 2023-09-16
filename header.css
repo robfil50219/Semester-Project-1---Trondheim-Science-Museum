@@ -37,8 +37,15 @@
 .logo span::first-letter {
     font-size: 2em;
 }
+.logo a, 
+.logo a:hover, 
+.logo a:focus {
+    text-decoration: none;
+}
 
-    .menu {
+
+
+ .menu {
     list-style-type: none;
     display: flex;
     gap: 0px; 
@@ -47,16 +54,23 @@
     flex-wrap: wrap;
 }
 
+
 .menu li a {
     text-decoration: none;
     color: #fff;
     padding: 5px 10px; 
     transition: background-color 0.3s ease;
 }
-
 .menu li a:hover {
-    background-color: rgba(255, 255, 255, 0.1); 
+    color: #d5591b; 
+    transition: color 0.3s ease;
 }
+
+.logo a span:hover {
+    color: #d5591b;
+    transition: color 0.3s ease;
+}
+
 
 .search {
     position: absolute;
