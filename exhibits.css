@@ -43,7 +43,7 @@
 
 /* Links */
 #cosmonology a, #evolution a, #biology-and-medicine a, #ecology a, #robotics-ai a {
-  color: blue; 
+  color: black; 
   text-decoration: none;
   transition: 0.3s; 
 }
