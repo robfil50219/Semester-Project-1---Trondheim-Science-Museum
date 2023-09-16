@@ -6,7 +6,7 @@
 /*styles links*/
 
 @import 'header.css'; 
-@import 'body.home-page.css';
+@import 'home-page.css';
 @import 'media.queries.css';
 @import 'footer.css';
 
@@ -45,10 +45,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
 }
 
 
