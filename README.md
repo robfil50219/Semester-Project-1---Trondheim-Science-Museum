@@ -1,4 +1,4 @@
-Cross-Course Project
+Trondheim Science Museum
 
 ![image](images/logo.png)
 
